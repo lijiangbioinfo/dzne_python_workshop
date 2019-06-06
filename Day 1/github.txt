@@ -38,3 +38,6 @@ git remote add try https://github.com/lijiangbioinfo/dzne_python_workshop
 
 git push try # try to push local changes to 'try' repository
 git pull try # try to get changes from 'try' repository
+
+
+git config user.name "Li Jiang"  # change the display author for changes
