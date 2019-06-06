@@ -10,3 +10,31 @@ git clone
 
 git pull # to extract changes from github to local computers
 
+git add *
+git status
+
+
+git remote
+wang@wang-laptop: PythonWS:$git remote
+origin
+try
+
+
+wang@wang-laptop: PythonWS:$git remote -v
+origin	https://github.com/nickdelgrosso/dzne_python_workshop.git (fetch)
+origin	https://github.com/nickdelgrosso/dzne_python_workshop.git (push)
+try	https://github.com/lijiangbioinfo/dzne_python_workshop (fetch)
+try	https://github.com/lijiangbioinfo/dzne_python_workshop (push)
+
+
+#check remote 
+git remote -v
+
+
+git remote add try https://github.com/lijiangbioinfo/dzne_python_workshop  
+# 'try' is the short name for my github repository, (similar to origin)
+# 'https://github.com/lijiangbioinfo/dzne_python_workshop' is the http link of my github repository
+
+
+git push try # try to push local changes to 'try' repository
+git pull try # try to get changes from 'try' repository
