@@ -1,0 +1,5 @@
+https://web.gin.g-node.org/
+
+# a good list of python libraries
+https://github.com/vinta/awesome-python#job-scheduler
+

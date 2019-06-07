@@ -1,0 +1,8 @@
+
+#To create an environment:
+
+conda create --name myenv
+
+
+# active the envirment
+conda active myenv
